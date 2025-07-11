@@ -52,6 +52,14 @@ body{
   background-color: #4E47FF;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.btn-primary:hover{
+  transform: scale(1.2);
+  background-color: yellow;
+  color: #000;
 }
 /* Header style  */
 
