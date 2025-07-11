@@ -111,3 +111,37 @@ nav {
 .action-img{
   border-radius: 48px;
 }
+
+/* Productive User Styles  */
+
+.productive-user{
+  background-color: rgba(78, 71, 255,0.1);
+  padding: 50px;
+  border-radius: 24px;
+
+}
+
+.pu-title {
+  font-size: 38px;
+  text-align: center;
+  color: #252432;
+}
+
+.pu-stat-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.pu-stat-title{
+  font-size: 80px;
+  font-weight: 700;
+  color: #4E47FF;
+}
+
+.pu-stat-text{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(0, 0, 0,.5);
+  text-align: center;
+}
