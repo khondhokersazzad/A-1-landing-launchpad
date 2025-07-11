@@ -20,6 +20,9 @@
 }
 
 /* universal style  */
+body{
+  background-color: #f5f8ff;
+}
 .max-width {
   max-width: 1140px;
   margin: 0 auto;
@@ -36,6 +39,9 @@
 .color-light-dark{
   color: rgba(37, 36, 50,0.5);
 
+}
+.w-100{
+  width: 100%;
 }
 
 .btn-primary{
@@ -166,6 +172,7 @@ nav {
 }
 .review-col {
   padding: 40px 20px;
+  background-color: #fff;
   margin-right: 20px;
   border-radius: 14px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -199,4 +206,41 @@ nav {
 .review-user-info-date{
   color: #B3B3B3;
   font-weight: 400;
+}
+
+/* NewsLetter Section */
+
+.newsletter-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
+  
+}
+
+.newsletter-title{
+  font-size: 97px;
+  font-weight: 700;
+  max-width: 50%;
+}
+
+.newsletter-form form{
+  width: 500px;
+}
+
+.newsletter-form form label{
+  font-size: 18px;
+  display: block;
+  margin: 10px 0;
+}
+
+.newsletter-form input[type="text"],input[type="email"],.newsletter-form textarea{
+ display: block;
+ width: 100%;
+ height: 50px;
+ padding: 10px 20px;
+ border-radius: 10px;
+ border: none;
+ /* margin: 18px 0; */
+ 
 }
