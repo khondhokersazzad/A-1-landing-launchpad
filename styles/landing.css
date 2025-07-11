@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -65,6 +66,21 @@ nav {
   justify-content: space-between;
   margin: 0 20px;
   padding: 20px 0;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+  
+}
+
+nav ul li {
+  list-style: none;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+
 }
 .nav-title{
   font-size: 34px;
@@ -234,7 +250,7 @@ nav {
   margin: 10px 0;
 }
 
-.newsletter-form input[type="text"],input[type="email"],.newsletter-form textarea{
+.newsletter-form input[type="text"],input[type="email"],.newsletter-form textarea, .newsletter-form input[type="submit"]{
  display: block;
  width: 100%;
  height: 50px;
@@ -243,4 +259,40 @@ nav {
  border: none;
  /* margin: 18px 0; */
  
+}
+
+/* Footer style */
+.footer{
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+.footer-container{
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+.footer-title{
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.footer-text{
+  color: #8987A1;
+  font-size: 20px;
+  text-align: center;
+}
+.footer nav{
+  justify-content: center;
+}
+.footer nav ul {
+  display: flex;
+  justify-content: center;
+  
+}
+.footer nav ul li a {
+  color: #8987A1;
+  
+  
 }
